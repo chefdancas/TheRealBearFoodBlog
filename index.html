@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Real Bear | Denver Food Blog</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;600&display=swap');
+        .font-playfair { font-family: 'Playfair Display', serif; }
+        .font-quicksand { font-family: 'Quicksand', sans-serif; }
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('http://static.photos/food/1200x630/42');
+            background-size: cover;
+            background-position: center;
+        }
+        .transition-all { transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50 font-quicksand">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+              <img src="https://huggingface.co/spaces/chefdancas/the-real-bear-s-denver-delights/resolve/main/images/ChatGPT%20Image%20Sep%206,%202025,%2012_56_57%20PM.png" alt="The Real Bear Logo" class="h-10 mr-2">
+              <span class="font-playfair text-2xl font-bold text-amber-800">The Real Bear</span>
+            </a>
+<div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-800 hover:text-amber-600 transition-all">Home</a>
+                <a href="mystory.html" class="text-gray-800 hover:text-amber-600 transition-all">My Story</a>
+                <a href="reviews.html" class="text-gray-800 hover:text-amber-600 transition-all">Reviews</a>
+                <a href="recipes.html" class="text-gray-800 hover:text-amber-600 transition-all">Recipes</a>
+                <a href="contact-form.html" class="text-gray-800 hover:text-amber-600 transition-all">Contact</a>
+</div>
+            <button class="md:hidden focus:outline-none">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-image h-96 flex items-center justify-center text-center text-white">
+        <div class="px-4">
+            <h1 class="font-playfair text-4xl md:text-6xl font-bold mb-4">From Chicago to Denver</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">A chef's journey through the Rockies, one delicious bite at a time</p>
+            <a href="mystory.html" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 rounded-full transition-all inline-block">
+                Taste My Story
+            </a>
+</div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="http://static.photos/people/640x360/23" alt="The Real Bear" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="font-playfair text-3xl md:text-4xl font-bold text-gray-800 mb-6">Hey There, I'm The Real Bear</h2>
+                    <p class="text-gray-600 mb-4">Former Chicago chef turned Denver food enthusiast. I traded deep dish for mountain views but kept my passion for incredible flavors.</p>
+                    <p class="text-gray-600 mb-6">This blog is where I share my culinary adventures, restaurant discoveries, and the occasional recipe from my kitchen to yours.</p>
+                    <button class="bg-gray-800 hover:bg-amber-600 text-white font-bold py-2 px-6 rounded-full transition-all">
+                        Read My Story
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Reviews -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="font-playfair text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">Latest Denver Discoveries</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-all hover:shadow-xl">
+                    <img src="http://static.photos/restaurant/640x360/101" alt="Restaurant Review" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">Mercantile Dining & Provision</h3>
+<div class="flex mb-3">
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 mr-1"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">A hidden gem with locally-sourced ingredients that remind me of Chicago's farm-to-table scene...</p>
+                        <a href="#" class="text-amber-600 hover:text-amber-700 font-bold transition-all">Read Full Review</a>
+                    </div>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-all hover:shadow-xl">
+                    <img src="http://static.photos/food/640x360/77" alt="Restaurant Review" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">Work & Class</h3>
+<div class="flex mb-3">
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">BBQ that would make my Chicago buddies jealous. The brisket melts like butter with a perfect smoke ring...</p>
+                        <a href="#" class="text-amber-600 hover:text-amber-700 font-bold transition-all">Read Full Review</a>
+                    </div>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-all hover:shadow-xl">
+                    <img src="http://static.photos/restaurant/640x360/55" alt="Restaurant Review" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">Denver Biscuit Company</h3>
+<div class="flex mb-3">
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 fill-amber-500 mr-1"></i>
+                            <i data-feather="star" class="text-amber-500 mr-1"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">Elevation doesn't just refer to Denver's altitude when it comes to their pancake stacks...</p>
+                        <a href="#" class="text-amber-600 hover:text-amber-700 font-bold transition-all">Read Full Review</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full transition-all">
+                    View All Reviews
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-16 bg-amber-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-playfair text-3xl md:text-4xl font-bold text-gray-800 mb-4">Join My Culinary Journey</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-8">Get weekly updates on Denver's tastiest spots, chef's secrets, and exclusive recipes straight to your inbox.</p>
+            
+            <div class="max-w-md mx-auto flex">
+                <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-l-lg border-2 border-r-0 border-gray-300 focus:outline-none focus:border-amber-500">
+                <button class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 rounded-r-lg transition-all">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-playfair text-xl font-bold mb-4">The Real Bear</h3>
+                    <p class="text-gray-400">Sharing Denver's culinary treasures through the eyes of a Chicago chef.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Explore</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">About</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Reviews</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Recipes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-all">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all">
+                            <i data-feather="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <p class="text-gray-400">hello@therealbear.com</p>
+                    <p class="text-gray-400">Denver, CO</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 The Real Bear. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
