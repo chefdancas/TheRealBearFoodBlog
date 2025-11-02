@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Story | The Real Bear</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;600&display=swap');
+        .font-playfair { font-family: 'Playfair Display', serif; }
+        .font-quicksand { font-family: 'Quicksand', sans-serif; }
+        .timeline-container {
+            position: relative;
+        }
+        .timeline-container::after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            background-color: #D1D5DB;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -1px;
+        }
+        @media (max-width: 768px) {
+            .timeline-container::after {
+                left: 31px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-quicksand">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+              <img src="https://huggingface.co/spaces/chefdancas/the-real-bear-s-denver-delights/resolve/main/images/ChatGPT%20Image%20Sep%206,%202025,%2012_56_57%20PM.png" alt="The Real Bear Logo" class="h-10 mr-2">
+              <span class="font-playfair text-2xl font-bold text-amber-800">The Real Bear</span>
+            </a>
+<div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-800 hover:text-amber-600 transition-all">Home</a>
+                <a href="mystory.html" class="text-amber-600 font-bold transition-all">My Story</a>
+                <a href="reviews.html" class="text-gray-800 hover:text-amber-600 transition-all">Reviews</a>
+                <a href="recipes.html" class="text-gray-800 hover:text-amber-600 transition-all">Recipes</a>
+                <a href="contact-form.html" class="text-gray-800 hover:text-amber-600 transition-all">Contact</a>
+</div>
+            <button class="md:hidden focus:outline-none">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="py-20 bg-amber-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="font-playfair text-4xl md:text-6xl font-bold mb-6">From Chicago to Denver</h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto">My culinary journey across 1,000 miles and countless flavors</p>
+        </div>
+    </section>
+
+    <!-- Story Content -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="mb-16">
+                    <img src="http://static.photos/cityscape/1024x576/1" alt="Chicago skyline" class="rounded-lg shadow-xl w-full">
+</div>
+                
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-gray-800 mb-6">Windy City Beginnings</h2>
+                <p class="text-gray-600 mb-6">My love affair with food started in my grandmother's Chicago kitchen, where the smells of simmering tomato sauce and freshly baked bread were as constant as Lake Michigan's breeze. By 16, I was washing dishes at a local Italian joint, sneaking bites of handmade pasta when the chef wasn't looking.</p>
+                <p class="text-gray-600 mb-6">After culinary school, I worked my way up through Chicago's competitive restaurant scene - from pantry chef at a Michelin-starred spot to running the line at a beloved neighborhood bistro. The energy, the pressure, the late nights fueled by espresso and dreams - it shaped me.</p>
+                <p class="text-gray-600 mb-12">But after 15 years, I needed a change. The mountains were calling.</p>
+                
+                <div class="mb-16">
+                    <img src="http://static.photos/travel/1024x576/2" alt="Moving to Denver" class="rounded-lg shadow-xl w-full">
+                </div>
+                
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-gray-800 mb-6">Rocky Mountain Revelation</h2>
+                <p class="text-gray-600 mb-6">Denver surprised me. The food scene wasn't just about green chili and bison burgers (though both are delicious). I discovered innovative chefs blending global techniques with local ingredients, craft breweries pushing boundaries, and a warmth that reminded me of Chicago's hospitality.</p>
+                <p class="text-gray-600 mb-6">As I explored, I started sharing my finds with friends back home - photos of perfect pork belly bao, descriptions of mole that made me reconsider Mexican cuisine, late-night texts about a burger that might rival Au Cheval's. That's how The Real Bear was born.</p>
+                <p class="text-gray-600 mb-12">This blog is my love letter to Denver's food scene - from the fine dining to the food trucks, with Chicago roots that still influence how I taste and critique.</p>
+                
+                <div class="mb-16">
+                    <img src="http://static.photos/food/1024x576/3" alt="Cooking in Denver" class="rounded-lg shadow-xl w-full">
+                </div>
+                
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-gray-800 mb-6">What You'll Find Here</h2>
+                <p class="text-gray-600 mb-6">Expect honest reviews from a chef's perspective - I'll tell you when the risotto is perfectly al dente or if the duck could use more resting time. But always with respect for the craft.</p>
+                <p class="text-gray-600 mb-6">You'll get recipes that blend my Chicago training with Colorado ingredients - think deep dish with hatch chiles or elevated brats with local craft beer mustard.</p>
+                <p class="text-gray-600 mb-6">Mostly, I hope to share the joy I find in Denver's growing food scene - the chefs, the servers, the farmers, and the flavors that make this city special.</p>
+                
+                <div class="bg-amber-50 p-8 rounded-lg mt-12">
+                    <h3 class="font-playfair text-2xl font-bold text-gray-800 mb-4">Let's Connect!</h3>
+                    <p class="text-gray-600 mb-4">Have a Denver spot I need to try? Want the recipe for something you saw on my Instagram? Just want to chat food?</p>
+                    <a href="contact-form.html" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-6 rounded-full transition-all">
+                        Get in Touch
+                    </a>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Milestones Timeline -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="font-playfair text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">My Culinary Timeline</h2>
+            
+            <div class="timeline-container">
+                <!-- Timeline Item 1 -->
+                <div class="relative mb-12 pl-16 md:pl-0 md:flex md:odd:flex-row-reverse">
+                    <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-amber-600 z-10 flex items-center justify-center">
+                        <i data-feather="home" class="text-white"></i>
+                    </div>
+                    <div class="md:w-5/12 md:px-6">
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">1995</h3>
+                            <p class="text-gray-600">First kitchen job washing dishes at Linda's Pizza in Chicago's Little Italy</p>
+</div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="relative mb-12 pl-16 md:pl-0 md:flex">
+                    <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-amber-600 z-10 flex items-center justify-center">
+                        <i data-feather="book-open" class="text-white"></i>
+                    </div>
+                    <div class="md:w-5/12 md:ml-auto md:px-6">
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">2002</h3>
+                            <p class="text-gray-600">Graduated from Kendall College Culinary Arts program</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="relative mb-12 pl-16 md:pl-0 md:flex md:odd:flex-row-reverse">
+                    <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-amber-600 z-10 flex items-center justify-center">
+                        <i data-feather="award" class="text-white"></i>
+                    </div>
+                    <div class="md:w-5/12 md:px-6">
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">2008</h3>
+                            <p class="text-gray-600">Became sous chef at Michelin-starred Nico Osteria</p>
+</div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 4 -->
+                <div class="relative mb-12 pl-16 md:pl-0 md:flex">
+                    <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-amber-600 z-10 flex items-center justify-center">
+                        <i data-feather="map-pin" class="text-white"></i>
+                    </div>
+                    <div class="md:w-5/12 md:ml-auto md:px-6">
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">2015</h3>
+                            <p class="text-gray-600">Moved to Denver for a fresh start and new culinary adventures</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 5 -->
+                <div class="relative mb-12 pl-16 md:pl-0 md:flex md:odd:flex-row-reverse">
+                    <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-amber-600 z-10 flex items-center justify-center">
+                        <i data-feather="pen-tool" class="text-white"></i>
+                    </div>
+                    <div class="md:w-5/12 md:px-6">
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">2018</h3>
+                            <p class="text-gray-600">Launched The Real Bear blog to share Denver's food scene with the world</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-playfair text-xl font-bold mb-4">The Real Bear</h3>
+                    <p class="text-gray-400">Discovering Denver's culinary gems through a Chicago chef's eyes.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Explore</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-all">Home</a></li>
+                        <li><a href="mystory.html" class="text-white font-bold transition-all">My Story</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Reviews</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">Recipes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-all">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all">
+                            <i data-feather="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <p class="text-gray-400">hello@therealbear.com</p>
+                    <p class="text-gray-400">Denver, CO</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 The Real Bear. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
